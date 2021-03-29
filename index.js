@@ -44,7 +44,7 @@ const promptUser = () => {
       },
       {
         type: 'input',
-        name:'GitHub',
+        name:'Github',
         message: 'Please provide your GitHub profile name.',
       },
       {
