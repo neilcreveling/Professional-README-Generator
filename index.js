@@ -3,6 +3,9 @@ const fs = require('fs');
 const util = require('util');
 const inquirer = require('inquirer');
 
+// internal packages
+const usernameAPI = require('./utils/username-api.js')
+
 // user prompts
 const promptUser = () => {
     return inquirer.prompt([
