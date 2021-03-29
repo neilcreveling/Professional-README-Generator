@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/neilcreveling/git-repo-setup-demo#readme",
   "dependencies": {
-    "inquirer": "^8.0.0"
+    "inquirer": "^8.0.0",
+    "markdown": "^0.5.0"
   }
 }
