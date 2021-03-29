@@ -5,6 +5,11 @@ const promptUser = () => {
     return inquirer.prompt([
       {
         type: 'input',
+        name: 'Title',
+        message: 'Please provide a title.',
+      },        
+      {
+        type: 'input',
         name: 'Description',
         message: 'Please provide a description.',
       },
@@ -33,6 +38,16 @@ const promptUser = () => {
         name: 'License',
         choices: ['MIT', 'Apache', 'GPL', 'BSD'],
         message: 'Enter your LinkedIn URL.',
+      },
+      {
+        type: 'input',
+        name:'GitHub',
+        message: 'Please provide your GitHub profile name.',
+      },
+      {
+        type: 'input',
+        name: 'Email',
+        message: 'Please provide your email address.',
       },
     ]);
   };
