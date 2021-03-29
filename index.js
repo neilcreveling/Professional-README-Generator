@@ -1,6 +1,7 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 
+// user prompts
 const promptUser = () => {
     return inquirer.prompt([
       {
@@ -51,3 +52,13 @@ const promptUser = () => {
       },
     ]);
   };
+
+  // function to write README file
+  function writeToFile(fileName, data) {
+      fs.writeFile(fileName, data, err => {
+          if (err) {
+              return console.log(err);
+          }
+          console.log('Success!')
+      });
+  }
