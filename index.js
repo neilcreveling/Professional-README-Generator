@@ -1,7 +1,7 @@
 // external packages
 const fs = require('fs');
+const util = require('util');
 const inquirer = require('inquirer');
-const markdown = require('markdown');
 
 // user prompts
 const promptUser = () => {
