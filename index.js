@@ -4,55 +4,56 @@ const util = require('util');
 const inquirer = require('inquirer');
 
 // internal packages
-const usernameAPI = require('./utils/username-api.js')
+const usernameAPI = require('./utils/username-api.js');
+
 
 // user prompts
 const promptUser = () => {
     return inquirer.prompt([
       {
         type: 'input',
-        name: 'Title',
+        name: 'title',
         message: 'Please provide a title.',
       },        
       {
         type: 'input',
-        name: 'Description',
+        name: 'description',
         message: 'Please provide a description.',
       },
       {
         type: 'input',
-        name: 'Installation',
+        name: 'installation',
         message: 'Please provide installation instructions.',
       },
       {
         type: 'input',
-        name: 'Usage',
+        name: 'usage',
         message: 'Please provide usage instructions.',
       },
       {
         type: 'input',
-        name: 'Contributing',
+        name: 'contributing',
         message: 'Please provide contribution guidelines.',
       },
       {
         type: 'input',
-        name: 'Tests',
+        name: 'tests',
         message: 'Please provide test instructions.',
       },
       {
         type: 'list',
-        name: 'License',
+        name: 'license',
         choices: ['MIT', 'Apache', 'GPL', 'BSD'],
         message: 'Enter your LinkedIn URL.',
       },
       {
         type: 'input',
-        name:'Github',
+        name:'github',
         message: 'Please provide your GitHub profile name.',
       },
       {
         type: 'input',
-        name: 'Email',
+        name: 'email',
         message: 'Please provide your email address.',
       },
     ]);

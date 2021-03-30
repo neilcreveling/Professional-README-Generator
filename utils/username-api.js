@@ -7,7 +7,7 @@ const axios = require('axios');
 const usernameAPI = {
     async getUser(userResponse) {
         try {let response = await axios
-        .get(`https://api.github.com/users/${userResponse.Github}`);
+        .get(`https://api.github.com/users/${userResponse.github}`);
         return response.data;
     } catch (error) {
         console.log(error)
