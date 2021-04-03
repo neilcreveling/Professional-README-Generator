@@ -70,51 +70,52 @@ const promptUser = () => {
 
 
  const generateHTML = (userResponse) =>
-    `# ${userResponse.title}
-    \n
-    ## ${userResponse.description}
-    \n
-    ${badge}
-    \n
-    ### Table of Contents
-    \n
-    * [Installation](#Installation)
-    \n
-    * [Instructions](#Instructions)
-    \n
-    * [Contributors](#Contributors)
-    \n
-    * [Tests](#Tests)
-    \n
-    * [Contact](#Contact)
-    \n
-    ## Installation
-    \n
-    ${userResponse.installation}
-    \n
-    ## Instructions
-    \n
-    ${userResponse.usage}
-    \n
-    ## Contributing
-    \n
-    ${userResponse.contributing}
-    \n
-    ## Tests
-    \n
-    ${userResponse.tests}
-    \n
-    ## License
-    \n
-    Copyright ${userResponse.year} ${userResponse.name}
-    \n
-    ${userResponse.license}
-    \n
-    ## Contact
-    \n
-    [${userResponse.github}](github.com/${userResponse.github})
-    \n
-    ${userResponse.email}`
+`# ${userResponse.title}
+\n
+### ${userResponse.description}
+\n
+${badge}
+\n
+### Table of Contents
+\n
+* [Installation](##-installation)
+\n
+* [Instructions](##-instructions)
+\n
+* [Contributing](##-contributing)
+\n
+* [Tests](##-tests)
+\n
+* [Contact](##-contact)
+\n
+\n
+## Installation
+\n
+${userResponse.installation}
+\n
+## Instructions
+\n
+${userResponse.usage}
+\n
+## Contributing
+\n
+${userResponse.contributing}
+\n
+## Tests
+\n
+${userResponse.tests}
+\n
+## License
+\n
+Copyright ${userResponse.year} ${userResponse.name}
+\n
+${userResponse.license}
+\n
+## Contact
+\n
+Please visit my github profile to view more of my work: [${userResponse.github}](github.com/${userResponse.github})
+\n
+Please feel free to contact me via email: ${userResponse.email}`
 
 // function to write readme
 
