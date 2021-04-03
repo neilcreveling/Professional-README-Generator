@@ -1,7 +1,7 @@
-# Hello World!
+# Hello World
 
 
-## Glad to meet you
+### I'm glad you're reading this test.
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -30,31 +30,31 @@
 ## Installation
 
 
-Press start
+This is a test sample.
 
 
 ## Instructions
 
 
-Press A
+This is a test sample.
 
 
 ## Contributing
 
 
-Let me know
+This is a test sample.
 
 
 ## Tests
 
 
-Let me know
+This is a test sample.
 
 
 ## License
 
 
-Copyright 2021 Neil
+Copyright 2021 Neil Creveling
 
 
 MIT License: Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the Software), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
