@@ -70,13 +70,13 @@ const promptUser = () => {
 
 
  const generateHTML = (userResponse) =>
-    `## ${userResponse.title}
+    `# ${userResponse.title}
     \n
-    ${userResponse.description}
+    ## ${userResponse.description}
     \n
     ${badge}
     \n
-    ##Table of Contents
+    ### Table of Contents
     \n
     * [Installation](#Installation)
     \n
@@ -88,29 +88,29 @@ const promptUser = () => {
     \n
     * [Contact](#Contact)
     \n
-    #Installation
+    ## Installation
     \n
     ${userResponse.installation}
     \n
-    #Instructions
+    ## Instructions
     \n
     ${userResponse.usage}
     \n
-    #Contributing
+    ## Contributing
     \n
     ${userResponse.contributing}
     \n
-    #Tests
+    ## Tests
     \n
     ${userResponse.tests}
     \n
-    #License
+    ## License
     \n
     Copyright ${userResponse.year} ${userResponse.name}
     \n
     ${userResponse.license}
     \n
-    #Contact
+    ## Contact
     \n
     [${userResponse.github}](github.com/${userResponse.github})
     \n
